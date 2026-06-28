@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Excel（ダッシュボード・将来作成分）
+*.xlsx
+*.xls
+~$*.xlsx
+
+# 週次サマリログ（固有名詞含む場合は除外）
+# logs/week-*.md
+
+# 機密情報を含む可能性のあるログ
+logs/private-*.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 環境変数・認証情報
+.env
+*.token
+*.secret
+
+# Notion APIキー
+notion_token.txt
